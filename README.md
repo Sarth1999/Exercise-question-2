@@ -1,2 +1,45 @@
 # Exercise-question-2
 Image display
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display Text on image</title>
+        <style>
+            .container {
+              position: relative;
+              text-align: center;
+              color: blueviolet;
+              
+            }
+            h1{
+                font-size: 5pc;
+            }
+            
+           .centered {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
+        
+            </style>
+            </head>
+            <body>
+            
+            
+            <div class="container">
+              <img src="https://source.unsplash.com/200x110/?nature,water" alt="Snow" style="width:50%;">
+              <div class="centered"><h1>Hello World</h1></div>
+            </div>
+</body>
+</html>
